@@ -2,14 +2,14 @@
 # Configuration file for MkDocs (Automated project documentation generator)
 
 
+
 site_name: Applied ML Project
 site_url: https://megan-chastain1.github.io/applied-ml-Chastain/
 repo_url: https://github.com/Megan-Chastain1/applied-ml-Chastain
-site_description: Applied Machine Learning Projects
+site_description: Professional applied ML project
 site_author: Megan Chastain
 docs_dir: docs
 site_dir: site
-
 
 theme:
   name: material
