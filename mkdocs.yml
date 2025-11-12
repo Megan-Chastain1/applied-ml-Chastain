@@ -10,10 +10,7 @@ site_description: Professional applied ML project
 site_author: Megan Chastain
 docs_dir: docs
 site_dir: site
-jobs:
-  deploy:
-    environment:
-      name: github-pages
+
 theme:
   name: material
   features:
