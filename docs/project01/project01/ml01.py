@@ -57,15 +57,15 @@ plt.show()
 
 # Boxenplots for all numeric columns
 # for column in data_frame.columns:
-#     plt.figure(figsize=(6, 4))
-#     sns.boxenplot(data=data_frame[column])
-#     plt.title(f'Boxenplot for {column}')
-#     plt.show()
+     plt.figure(figsize=(6, 4))
+     sns.boxenplot(data=data_frame[column])
+     plt.title(f'Boxenplot for {column}')
+     plt.show()
 
 # Pairplot for all numeric columns
 # With 9 columns, there will be 9x9 = 81 plots, so this is commented out after analysis.
-# sns.pairplot(data_frame)
-# plt.show()
+sns.pairplot(data_frame)
+plt.show()
 
 #########################################
 # Section 3. Feature Selection and Justification
